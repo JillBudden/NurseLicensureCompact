@@ -1,7 +1,7 @@
 # NurseLicensureCompact
 SAS code for Nurse Licensure Compact Surveys
 
-There are 5 files for the 5 differt surveys:
+There are 5 SAS files for the 5 differt surveys:
 1. Survey to Boards of Nursing that have a Compact License.
 2. Survey to Boards of Nursing that have a Single State License.
 3. Survey to nurse employers who are located in a Compact State.
