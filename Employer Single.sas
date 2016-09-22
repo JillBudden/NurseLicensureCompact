@@ -139,9 +139,9 @@ PROC MEANS DATA=WORK.SORT2 FW=12 PRINTALLTYPES CHARTYPE MAXDEC=2 VARDEF=DF N MEA
 RUN;
 
 
-/* 12Approximately what percentage of your organizationÂ’s nurses are members of a collective bargaining union?
-None, 25%, 50%, 75%, All, DonÂ’t know
-Table: Percentage of OrganizationÂ’s Nurses Members of a Collective Bargaining Union */
+/* 12Approximately what percentage of your organization’s nurses are members of a collective bargaining union?
+None, 25%, 50%, 75%, All, Don’t know
+Table: Percentage of Organization’s Nurses Members of a Collective Bargaining Union */
 
 proc format;
 	value e12_Single
@@ -203,7 +203,7 @@ RUN;
 
 
 /* 14What best describes your title at your organization? (select one) Nurse executive, HR executive, Other, please specify
-Table: RespondentÂ’s Job Title */
+Table: Respondent’s Job Title */
 
 proc format;
 	value e14_Single
@@ -228,7 +228,7 @@ RUN;
 
 
 /* 15What type of license do you currently hold? (select all that apply) Not applicable, LPN/VN, RN, APRN
-Table: RespondentÂ’s License */
+Table: Respondent’s License */
 	
 PROC SQL;
 	CREATE VIEW WORK.SORT6 AS
@@ -274,7 +274,7 @@ RUN;
 
 
 /* 2(a) Would there be advantages for your organization if your state/jurisdiction joined the Nurse Licensure Compact?
-Yes, No, DonÂ’t know
+Yes, No, Don’t know
 Table: Of Employers Familiar with the NLC, Would there be Advantages for your Organization if your State/Jurisdiction Joined the NLC? */
 
 proc format;
@@ -317,7 +317,7 @@ RUN;
 
 
 /* 3(a) Would there be disadvantages for your organization if your state/jurisdiction joined the Nurse Licensure Compact?
-Yes, No, DonÂ’t know
+Yes, No, Don’t know
 Table: Of Employers Familiar with the NLC, Would there be Disadvantages for your Organization if your State/Jurisdiction Joined the NLC? */
 
 proc format;
@@ -401,7 +401,7 @@ RUN;
 
 
 /* 5Do you favor or oppose your state/jurisdiction joining the Nurse Licensure Compact?
-In favor, Neutral, Opposed, No opinion, DonÂ’t know
+In favor, Neutral, Opposed, No opinion, Don’t know
 Table: Of Employers Familiar with the NLC, Do you Favor or Oppose your State/Jurisdiction Joining the NLC? */
 
 proc format;
@@ -429,7 +429,7 @@ RUN;
 
 
 /* 6Please indicate any suggestions or comments you have regarding the Nurse Licensure Compact: 
-None, DonÂ’t know
+None, Don’t know
 Table: Of Employers Familiar with the NLC, Suggestions or Comments Regarding the NLC */
 
 PROC SQL;
@@ -460,7 +460,7 @@ PROC FREQ DATA = WORK.SORT155
 RUN;
 
 /* 7(a) Do any nurses working in your organization require multiple nursing licenses from other state/jurisdiction(s) to perform their job?
-Yes, No(skip to 8), DonÂ’t know(skip to 8)
+Yes, No(skip to 8), Don’t know(skip to 8)
 Table: Of Employers Familiar with the NLC, Do any Nurses Working in your Organization Require Multiple 
 Nursing Licenses from other State/Jurisdictions to Perform their Job? */
 
